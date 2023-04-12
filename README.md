@@ -13,7 +13,7 @@ References:
 2 Dalsin, J. L.; Messersmith, P. B. Materials Today 2005, 8 (9), 38â€“46.
 3 Overbeek, J. T. G. Journal of Colloid and Interface Science 1977, 58 (2), 15.
 
-Usage:
+Usage: DockSurf.pl label pdbfile fine surfacetype sel clusconf
 Only few information are required for DockSurf:
 - A label name which is used as a nickname for the generation of all output names.
 - A pdb (protein data bank) file which contains the protein coordinates.
@@ -21,3 +21,5 @@ Only few information are required for DockSurf:
 - Surface type label. To date, only Au111 is available, further improvments will be made in the future.
 - An integer, sel, which defines the number of output conformations to be selected (typically 3 or 5).
 - Clus or conf tag to choose either the sel firt clusters or first conformations.
+
+
